@@ -149,8 +149,6 @@ toolbarMode = "minimal"
 
 
 [server]
-port = 8501
-baseUrlPath = "/app"
 enableCORS = false
 enableXsrfProtection = false
 enableWebsocketCompression = false
