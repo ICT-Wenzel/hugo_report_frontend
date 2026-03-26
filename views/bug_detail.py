@@ -7,6 +7,7 @@ from utils.api_client import (
     close_bug_with_resolution,
     add_comment,
 )
+from utils.config import get_config
 
 
 
