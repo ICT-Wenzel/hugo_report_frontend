@@ -1,0 +1,156 @@
+[theme]
+
+base = "light"
+
+primaryColor = "#4F88A8"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#E8F3F8"
+textColor = "#1F2A30"
+
+redColor = "#C7332A"
+orangeColor = "#D96B2B"
+yellowColor = "#E6B422"
+blueColor = "#4F88A8"
+greenColor = "#2FA36B"
+violetColor = "#6A4FB3"
+grayColor = "#6B7C86"
+
+redBackgroundColor = "#F8D7D5"
+orangeBackgroundColor = "#FBE5D6"
+yellowBackgroundColor = "#FFF4CC"
+blueBackgroundColor = "#DCEAF2"
+greenBackgroundColor = "#D9F2E6"
+violetBackgroundColor = "#E6DFF7"
+grayBackgroundColor = "#EEF2F4"
+
+redTextColor = "#A62821"
+orangeTextColor = "#B85A20"
+yellowTextColor = "#9C7A10"
+blueTextColor = "#2F5F78"
+greenTextColor = "#1F7A50"
+violetTextColor = "#4B3585"
+grayTextColor = "#4A5A63"
+
+linkColor = "#2F5F78"
+linkUnderline = true
+
+codeTextColor = "#1F7A50"
+codeBackgroundColor = "#F4F7F9"
+
+font = "sans-serif"
+baseFontSize = 16
+baseFontWeight = 400
+
+headingFont = "sans-serif"
+headingFontSizes = ["2.75rem","2.25rem","1.75rem","1.5rem","1.25rem","1rem"]
+headingFontWeights = [700,600,600,600,600,600]
+
+codeFont = "monospace"
+codeFontSize = "0.875rem"
+codeFontWeight = 400
+
+baseRadius = "0.5rem"
+buttonRadius = "0.5rem"
+
+borderColor = "#D0DEE6"
+dataframeBorderColor = "#D0DEE6"
+dataframeHeaderBackgroundColor = "#E8F3F8"
+
+showWidgetBorder = true
+showSidebarBorder = true
+
+chartCategoricalColors = [
+  "#4F88A8",
+  "#C7332A",
+  "#2F5F78",
+  "#6A4FB3",
+  "#2FA36B",
+  "#D96B2B",
+  "#6B7C86"
+]
+
+chartSequentialColors = [
+  "#E8F3F8",
+  "#D0E6F0",
+  "#B8D9E8",
+  "#9FCCDF",
+  "#87BFD7",
+  "#6FB2CF",
+  "#4F88A8",
+  "#3F6F88",
+  "#2F5F78",
+  "#1F3F50"
+]
+
+chartDivergingColors = [
+  "#7A1E19",
+  "#A62821",
+  "#C7332A",
+  "#E56A61",
+  "#F4B3AE",
+  "#D0E6F0",
+  "#9FCCDF",
+  "#6FB2CF",
+  "#3F6F88",
+  "#1F3F50"
+]
+
+
+[theme.sidebar]
+
+primaryColor = "#4F88A8"
+backgroundColor = "#CCD9E9"
+secondaryBackgroundColor = "#3F6F88"
+textColor = "#1F2A30"
+
+redColor = "#C7332A"
+orangeColor = "#D96B2B"
+yellowColor = "#E6B422"
+blueColor = "#4F88A8"
+greenColor = "#2FA36B"
+violetColor = "#6A4FB3"
+grayColor = "#AFC3CF"
+
+redBackgroundColor = "#5C1F1C"
+orangeBackgroundColor = "#5C3A1C"
+yellowBackgroundColor = "#5C4A1C"
+blueBackgroundColor = "#3F6F88"
+greenBackgroundColor = "#1F5C45"
+violetBackgroundColor = "#3A2C5C"
+grayBackgroundColor = "#3A5563"
+
+redTextColor = "#FF8A80"
+orangeTextColor = "#FFB074"
+yellowTextColor = "#FFE08A"
+blueTextColor = "#1F2A30"
+greenTextColor = "#6FD6A6"
+violetTextColor = "#B9A6F0"
+grayTextColor = "#DCE7ED"
+
+linkColor = "#83C1E0"
+linkUnderline = true
+
+codeTextColor = "#6FD6A6"
+codeBackgroundColor = "#1F3F50"
+
+borderColor = "#3F6F88"
+dataframeBorderColor = "#3F6F88"
+dataframeHeaderBackgroundColor = "#3F6F88"
+
+baseRadius = "0.5rem"
+buttonRadius = "0.5rem"
+
+showWidgetBorder = true
+
+[client]
+toolbarMode = "minimal"
+
+
+
+
+[server]
+port = 8501
+baseUrlPath = "/app"
+enableCORS = false
+enableXsrfProtection = false
+enableWebsocketCompression = false
