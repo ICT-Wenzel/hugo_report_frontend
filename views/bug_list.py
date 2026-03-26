@@ -17,7 +17,7 @@ STATUS_BADGE = {
 
 
 def show():
-    st.header("📋 Bug List")
+    st.header("Bug List")
 
     with st.expander("Filters", expanded=True):
         col1, col2, col3 = st.columns(3)
