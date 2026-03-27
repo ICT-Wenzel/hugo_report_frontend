@@ -3,16 +3,16 @@ import streamlit as st
 from utils.api_client import get_all_bugs
 
 SEVERITY_BADGE = {
-    "low":      "🟢 low",
-    "medium":   "🟡 medium",
-    "high":     "🟠 high",
-    "critical": "🔴 critical",
+    "low":      "low",
+    "medium":   "medium",
+    "high":     "high",
+    "critical": "critical",
 }
 
 STATUS_BADGE = {
-    "open":        "⬜ open",
-    "in_progress": "🔵 in progress",
-    "closed":      "✅ closed",
+    "open":        "open",
+    "in_progress": "in progress",
+    "closed":      "closed",
 }
 
 

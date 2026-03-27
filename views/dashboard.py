@@ -7,6 +7,7 @@ from utils.api_client import get_all_bugs
 
 def show():
     st.header("Dashboard")
+    st.toast("Welcome to Hugo Automation Service Reporting Page!")
 
     try:
         bugs = get_all_bugs()
@@ -29,7 +30,7 @@ def show():
     c2.metric("Open",        open_)
     c3.metric("In Progress", in_prog)
     c4.metric("Closed",      closed)
-    c5.metric("Critical 🔴", critical)
+    c5.metric("Critical", critical)
 
     st.divider()
 
